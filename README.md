@@ -1,5 +1,7 @@
 # pixai-manga
 
+日本語 | [English](README.en.md)
+
 [PixAI](https://pixai.art) の API と画像生成モデル **Tsubaki.3** で、1ページの漫画画像を生成する Claude Code 用のスキルです。
 
 - カラー／モノクロの漫画を、日本語の縦書きセリフ入りで生成
