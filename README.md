@@ -1,7 +1,5 @@
 # pixai-manga
 
-<p align="center"><img src="images/sample_cafe_ramen.jpg" alt="Sample manga page generated with pixai-manga" width="480"></p>
-
 [English](#english) | [日本語](#japanese) | [中文](#chinese)
 
 <a id="english"></a>
