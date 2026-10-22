@@ -1,0 +1,47 @@
+{
+  "color": "color",
+  "aspect": "2:3",
+  "characters": [
+    {"name": "girl", "label": "the white-haired girl",
+     "look": "1girl, white long hair, hair over right eye, yellow eyes, black t-shirt, black long skirt"},
+    {"name": "maid", "label": "the orange-haired maid",
+     "look": "1girl, orange bob hair, green eyes, white frilled headband, white frilled apron, black maid dress, short bangs, both eyes clearly visible"}
+  ],
+  "panels": [
+    {
+      "layout": "top wide panel",
+      "camera": "Wide Shot, high angle, 35mm lens",
+      "scene": "a small quiet cafe with large windows. The white-haired girl sits alone at a round table by the window in the lower left. The orange-haired maid walks toward her from the right with a tray and one latte cup",
+      "characters": [
+        {"name": "maid", "expression": "bright open-mouthed smile", "position": "right side, standing", "pose": "carrying a tray with both hands"},
+        {"name": "girl", "expression": "bored half-closed eyes", "position": "lower left, sitting", "pose": "chin resting on one hand"}
+      ],
+      "lines": [{"speaker": "maid", "text": "お待たせしました！", "side": "on the right side"}]
+    },
+    {
+      "layout": "middle panel",
+      "camera": "Extreme Close Up, top-down view onto the cup",
+      "scene": "only the latte cup on its saucer filling the panel. The latte art is a shapeless lumpy blob of foam, not a recognizable animal",
+      "no_people": true,
+      "lines": [{"speaker": "girl", "text": "……これ、何？", "side": "on the right side"}]
+    },
+    {
+      "layout": "bottom right vertical panel",
+      "camera": "Close Up, side view",
+      "scene": "silent reaction. Tall narrow panel with the white-haired girl's face in profile",
+      "characters": [
+        {"name": "girl", "expression": "flat unimpressed stare, mouth a straight line, not smiling, a single sweat drop", "position": "center"}
+      ]
+    },
+    {
+      "layout": "bottom left largest panel",
+      "camera": "Cowboy Shot, low angle, 28mm lens",
+      "scene": "the punchline. The back of the white-haired girl's head fills the lower left foreground. The orange-haired maid stands tall in the center right",
+      "characters": [
+        {"name": "maid", "expression": "eyes closed in happy upward arcs, mouth wide open in a big proud laugh", "position": "center right, standing", "pose": "hands on hips, chest puffed out"}
+      ],
+      "effects": ["キラキラ"],
+      "lines": [{"speaker": "maid", "text": "ネコです！", "side": "on the right side"}]
+    }
+  ]
+}
