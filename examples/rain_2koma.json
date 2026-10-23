@@ -1,0 +1,29 @@
+{
+  "color": "color",
+  "aspect": "2:3",
+  "characters": [
+    {"name": "student", "label": "the student",
+     "look": "1boy, short black hair, brown eyes, white shirt, navy school blazer"}
+  ],
+  "panels": [
+    {
+      "layout": "top wide panel",
+      "camera": "Full Body, eye level",
+      "scene": "a school entrance on a rainy afternoon. The student stands at the doorway looking out at heavy rain",
+      "characters": [
+        {"name": "student", "expression": "eyes wide, mouth slightly open", "position": "center, standing", "pose": "empty hands at his sides"}
+      ],
+      "lines": [{"speaker": "student", "text": "雨……？", "side": "on the right side"}]
+    },
+    {
+      "layout": "bottom wide largest panel",
+      "camera": "Upper Body, low angle",
+      "scene": "the student holds his school bag over his head like an umbrella",
+      "characters": [
+        {"name": "student", "expression": "determined eyes, mouth a tight line", "position": "center", "pose": "both hands holding the bag above his head"}
+      ],
+      "effects": ["スピード線"],
+      "lines": [{"speaker": "student", "text": "走るしかない！", "side": "on the right side"}]
+    }
+  ]
+}

@@ -50,14 +50,14 @@ Restart your terminal and Claude Code afterwards. Never share your key or paste 
 
 Just ask Claude Code:
 
-> Make a 4-panel manga with PixAI where a maid fails at latte art in a cafe
+> Make a 2-panel manga with PixAI where a student forgets his umbrella
 
 You can also run the script directly:
 
 ```bash
-python scripts/pixai_manga.py examples/cafe_4koma.json --dry-run   # show the prompt only (no credits used)
-python scripts/pixai_manga.py examples/cafe_4koma.json --out output
-python scripts/pixai_manga.py examples/cafe_4koma.json --batch 4   # make 4 and pick the best
+python scripts/pixai_manga.py examples/rain_2koma.json --dry-run   # show the prompt only (no credits used)
+python scripts/pixai_manga.py examples/rain_2koma.json --out output
+python scripts/pixai_manga.py examples/rain_2koma.json --batch 4   # make 4 and pick the best
 ```
 
 Main options:
@@ -82,7 +82,7 @@ pixai-manga/
 ├── SKILL.md                    Skill description (read by Claude Code)
 ├── scripts/pixai_manga.py      Generation script
 ├── references/prompt-guide.md  How to write Tsubaki.3 manga prompts
-└── examples/cafe_4koma.json    Example page plan
+└── examples/rain_2koma.json    Example page plan
 ```
 
 ### Notes
@@ -145,14 +145,14 @@ export PIXAI_API_KEY="<あなたのキー>"
 
 Claude Code に話しかけるだけで使えます。
 
-> PixAIで、カフェでメイドがラテアートを失敗する4コマ漫画を作って
+> PixAIで、傘を忘れた学生の2コマ漫画を作って
 
 スクリプトを直接使うこともできます。
 
 ```bash
-python scripts/pixai_manga.py examples/cafe_4koma.json --dry-run   # 送るプロンプトを確認（クレジットを使わない）
-python scripts/pixai_manga.py examples/cafe_4koma.json --out output
-python scripts/pixai_manga.py examples/cafe_4koma.json --batch 4   # 4枚作って選ぶ
+python scripts/pixai_manga.py examples/rain_2koma.json --dry-run   # 送るプロンプトを確認（クレジットを使わない）
+python scripts/pixai_manga.py examples/rain_2koma.json --out output
+python scripts/pixai_manga.py examples/rain_2koma.json --batch 4   # 4枚作って選ぶ
 ```
 
 主なオプション：
@@ -177,7 +177,7 @@ pixai-manga/
 ├── SKILL.md                    スキルの説明（Claude Code が読む）
 ├── scripts/pixai_manga.py      生成スクリプト
 ├── references/prompt-guide.md  Tsubaki.3 の漫画プロンプトの書き方
-└── examples/cafe_4koma.json    ページ設計図の例
+└── examples/rain_2koma.json    ページ設計図の例
 ```
 
 ### 注意
@@ -240,14 +240,14 @@ export PIXAI_API_KEY="<你的密钥>"
 
 直接对 Claude Code 说即可：
 
-> 用 PixAI 做一个女仆在咖啡店拉花失败的四格漫画
+> 用 PixAI 做一个学生忘带雨伞的两格漫画
 
 也可以直接运行脚本：
 
 ```bash
-python scripts/pixai_manga.py examples/cafe_4koma.json --dry-run   # 只显示提示词（不消耗积分）
-python scripts/pixai_manga.py examples/cafe_4koma.json --out output
-python scripts/pixai_manga.py examples/cafe_4koma.json --batch 4   # 生成 4 张并挑选最好的
+python scripts/pixai_manga.py examples/rain_2koma.json --dry-run   # 只显示提示词（不消耗积分）
+python scripts/pixai_manga.py examples/rain_2koma.json --out output
+python scripts/pixai_manga.py examples/rain_2koma.json --batch 4   # 生成 4 张并挑选最好的
 ```
 
 主要选项：
@@ -272,7 +272,7 @@ pixai-manga/
 ├── SKILL.md                    技能说明（由 Claude Code 读取）
 ├── scripts/pixai_manga.py      生成脚本
 ├── references/prompt-guide.md  Tsubaki.3 漫画提示词写法
-└── examples/cafe_4koma.json    页面设计图示例
+└── examples/rain_2koma.json    页面设计图示例
 ```
 
 ### 注意事项
