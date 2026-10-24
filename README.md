@@ -1,3 +1,13 @@
+# I've released a style for creating monochrome manga!
+
+Tsubaki.3 Flash
+https://pixai.art/recipes/2070648552829954135
+
+Tsubaki.3
+https://pixai.art/recipes/2070664674346213858
+
+---
+
 # pixai-manga
 
 [English](#english) | [日本語](#japanese) | [中文](#chinese)
